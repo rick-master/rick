@@ -1,0 +1,8 @@
+sudo apt-get install qemu-kvm virt-manager
+sudo nano /etc/libvirt/libvirtd.conf
+sudo virsh-manager
+
+cirros - https://download.cirros-cloud.net/0.3.2/
+directlink - https://download.cirros-cloud.net/0.3.2/cirros-0.3.2-i386-disk.img
+
+sudo virsh list
